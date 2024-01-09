@@ -1,0 +1,160 @@
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+    margin-right: 20px;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.centered-text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.red-font {
+    color: red;
+}
+
+#notification-logo {
+    width: 50px; 
+    height: 50px; 
+    margin: 10px; 
+}
+
+button {
+    background-color: #af4c56;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.left-menu {
+    float: left;
+    margin-top: 20px;
+}
+
+.left-menu .dropbtn {
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.left-menu .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.left-menu .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+}
+
+.left-menu .dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+
+#content {
+    flex: 1;
+    padding: 15px;
+}
+
+#sidebar {
+    width: 250px;
+    background-color: #f1f1f1;
+    padding: 15px;
+    display: none;
+}
+
+button {
+    display: block;
+    margin-top: 10px;
+}
+
+#cartItems {
+    list-style-type: none;
+    padding: 0;
+}
+#cartItems li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+#totalPrice {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.quantity-input {
+    width: 30px;
+}
+
+.remove {
+    color: red;
+    cursor: pointer;
+    margin-left: 10px;
+}

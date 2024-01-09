@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Your Website</title>
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li class="dropdown">
+            <a href="#" class="dropbtn">Menu</a>
+            <div class="dropdown-content">
+                <a href="#big-mouth-burgers">Big Mouth Burgers</a>
+                <a href="#sizzling-fajitas">Always Sizzling Fajitas</a>
+                <a href="#chicken-crispers">Famous Chicken Crispers</a>
+            </div>
+        </li>
+        <li><a href="#rewards">Rewards</a></li>
+        <li><a href="#locations">Locations</a></li>
+        <li><a href="#gift-cards">Gift Cards</a></li>
+        <li><a href="#login">Login</a></li>
+        <li class="order-now"><button onclick="orderNow()">Order Now</button></li>
+    </ul>
+</nav>
+
+<div class="centered-text">
+    <h1 class="red-font">CHICKEN CRISPER COMBOS</h1>
+    <p>Menu > Chicken Crisper Combos</p>
+    <p>Find everything from our Big Mouth Burgers, our always sizzling. Full on Fajitas and our famous Chicken Crispers</p>
+</div>
+
+<li class="dropdown">
+    <a href="#" class="dropbtn" onclick="toggleDropdown()">Menu</a>
+    <div class="dropdown-content" id="menuDropdown">
+        <a href="#big-mouth-burgers">Big Mouth Burgers</a>
+        <a href="#sizzling-fajitas">Always Sizzling Fajitas</a>
+        <a href="#chicken-crispers">Famous Chicken Crispers</a>
+       
+    </div>
+</li>
+<div id="content">
+    <h1>Butter Chicken</h1>
+    <img src="chicken.jpg" alt="Butter Chicken"style="width:100px;height:100px;">
+    <p>Delicious Butter Chicken</p>
+    <button onclick="addToCart()">Add to Cart</button>
+    <button onclick="customize()">Customize</button>
+</div>
+
+<div id="sidebar">
+    <h2>Shopping Cart</h2>
+    <ul id="cartItems">
+    </ul>
+    <div id="totalPrice">Total: 0.00</div>
+</div>
+
+</div>
+
+<script src="action.js"></script>
+</body>
+</html>
